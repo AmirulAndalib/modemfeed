@@ -21,7 +21,7 @@ network.registerPatternVirtual(/^xmm-.+$/);
 
 return network.registerProtocol('xmm', {
 	getI18n: function() {
-		return _('Intel XMM Cellular');
+		return _('Intel Cellular');
 	},
 
 	getIfname: function() {
